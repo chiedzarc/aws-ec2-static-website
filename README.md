@@ -38,4 +38,4 @@ http://13.60.191.130
 ---
 
 ## Author
-Chiedza — Computer Science Student
+Chiedza ~ Computer Science Student
