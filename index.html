@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiedza Chihwai | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/1efcda6dd1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav>
+        <h2 class="logo">Chiedza Chihwai</h2>
+
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certs">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <header class="hero">
+        <div class="hero-text">
+            <p class="intro">HELLO, I'M</p>
+            <h1>Chiedza</h1>
+            <h3>Computer Science Student | Cloud & Web Development Enthusiast</h3>
+
+            <p class="hero-description">
+               Second-year student at the University of Zimbabwe exploring cloud computing, networking, frontend development, and backend systems.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View Projects</a>
+                <button class="btn secondary-btn" onclick="toggleTheme()">
+                    Dark Mode
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="card fade-in">
+        <h2>About Me</h2>
+
+        <p>
+            I’m a Computer Science student interested in cloud computing, networking, and backend development. I enjoy building practical projects and figuring out how software and infrastructure work together behind the scenes.
+        </p>
+        <br>
+        <p>
+            Lately, I’ve been working with AWS EC2, Linux servers, JavaScript, and client-server applications while studying toward AWS and CCNA certifications.
+        </p>
+        <br>
+        <p>
+            I like learning by building, solving problems step by step, and improving systems until they’re reliable and easy to use
+        </p>
+
+    </section>
+
+
+    <section id="skills" class="card fade-in">
+        <h2>Skills</h2>
+
+        <div class="skills-container">
+            <div class="skill-box">HTML</div>
+            <div class="skill-box">CSS</div>
+            <div class="skill-box">JavaScript</div>
+            <div class="skill-box">Python</div>
+            <div class="skill-box">AWS EC2</div>
+            <div class="skill-box">Linux Basics</div>
+            <div class="skill-box">Networking Fundamentals</div>
+        </div>
+    </section>
+
+
+    <section id="projects" class="card fade-in">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>AWS Portfolio Website</h3>
+            <p>
+                Built and deployed a personal portfolio website using AWS EC2, Ubuntu Linux, SSH, and Nginx. Configured a Linux server environment and hosted the website in the cloud.
+            </p>
+        </div>
+
+    </section>
+
+ <section id="certs" class="card fade-in">
+    <h2>Learning & Certifications</h2>
+
+    <p>
+        I am currently building a strong foundation in cloud computing and networking
+        through academic study and industry-recognized training.
+    </p>
+
+    <div class="cert-item">
+        <div class="cert-badge">AWS Cloud Practitioner (In Progress)</div>
+        <p class="cert-desc">
+            Cloud fundamentals, AWS core services, and cloud architecture concepts.
+        </p>
+    </div>
+
+    <div class="cert-item">
+        <div class="cert-badge">CCNA (In Progress)</div>
+        <p class="cert-desc">
+            Networking fundamentals including routing, switching, and troubleshooting.
+        </p>
+    </div>
+</section>
+
+    <section id="contact" class="card fade-in">
+        <h2>Connect With Me</h2>
+        <div class="social-icons">
+        <p>
+            <a href="https://github.com/chiedzarc" target="_blank">
+                <i class="fa-brands fa-github" style="color: rgb(123, 86, 160);"></i>
+            </a>
+        </p>
+
+        <p>
+            <a href="https://www.linkedin.com/in/chiedza-chihwai-519051263" target="_blank">
+                <i class="fa-brands fa-linkedin" style="color: rgb(123, 86, 160);"></i>
+            </a>
+        </p>
+
+        <p>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=chiedzarchihwai@gmail.com" target="_blank">
+                <i class="fa-solid fa-envelope" style="color: rgb(123, 86, 160);"></i>
+            </a>
+        </p>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>Built with HTML, CSS & JavaScript • Hosted on AWS EC2 ☁️</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
