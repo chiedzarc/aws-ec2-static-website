@@ -5,7 +5,7 @@ This is my personal portfolio website built using HTML, CSS, and JavaScript. I d
 ---
 
 ## Check out the live demo
-(http://51.21.209.229/)
+http://51.21.209.229/
 
 ---
 
